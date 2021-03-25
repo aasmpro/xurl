@@ -1,0 +1,6 @@
+**/*.html
+dist
+*.egg-info
+_env
+.vscode
+__pycache__
