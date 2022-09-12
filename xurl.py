@@ -15,7 +15,7 @@ def get_parser():
         epilog="version {}".format(__version__),
     )
     parser.add_argument("location", help="file or url", metavar="LOCATION")
-    parser.add_argument("-a", action="store", type=str, help="append URL to links", metavar="URL")
+    parser.add_argument("-a", action="store", type=str, help="append an URL to start of the links", metavar="URL")
     parser.add_argument("-c", action="append", type=str, help="contain text (REGEX)", metavar="TEXT")
     parser.add_argument("-C", action="append", type=str, help="not contain text (REGEX)", metavar="TEXT")
     parser.add_argument("-q", action="store_true", help="quiet mode (do not print Errors/Warnings/Infos)")
